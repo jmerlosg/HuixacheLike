@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="profindsite">	
+	<meta charset="utf-8">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top" id="MainMenu">
+	  <a class="navbar-brand" href="#">Pro-Find</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">¿Cómo funciona?</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Los mejores</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Contacto</a>
+	      </li>
+	    </ul>
+	    <nav class="navbar float-right navbar-dark bg-dark">
+	    	<ul class="navbar-nav mr-auto">
+	    		<li class="nav-item">
+			    	<a class="nav-link" href="#">Registro</a>
+			    </li>
+	    		<li class="nav-item">
+	        		<a class="nav-link" href="#">Inicia Sesión</a>
+	      		</li>
+	    	</ul>
+	    </nav>
+	  </div>
+	</nav>
+
+	<div class="container">
+		
+		<section class="Welcome">
+			<h1 class="WelcomeBanner text-center display-4">Encuentra profesionales a tu medida.</h1>
+
+			<p class="text-center">
+				¿Necesitas ayuda en algún trabajo o proyecto?
+				<br>
+				Publica aquí tus proyectos y recibirás ofertas de todos los profesionales registrados.
+				<br>
+				Elige al que mejor precio ofrezca o el que más experiencia tenga, apoyate en tu decisión gracias al sistema de calificaciones, con el que podrás ver opiniones de los empleadores anteriores de cada candidato. 
+				<br>
+				Revisa sus portafolios de trabajos con galería de imágenes y elige al que más se ajuste a tus necesidades.
+				<br>
+				Haz concursar a tus candidatos por tu proyeto por medio de la herramienta "Death Match".
+			</p>
+
+		</section>
+
+		<section class="WhatIsThis">
+			
+			<h1 class="text-center display-4">¿Qué es Pro-Find?</h1>
+
+		</section>
+
+
+		<section class="Register text-center">
+			
+
+			<h1 class="text-center display-4">Registrate y publíca proyectos u ofrece tus servicios profesonales con nosotros.</h1>
+
+			<form class="MainPageForm px-4 py-4 d-inline-block rounded-left rounded-right rounded-top rounded-bottom">
+				<div class="form-check form-check-inline">
+					<label class="form-check-label float-left">
+					<input class="form-check-input" type="radio" name="tipo" id="radOfrecer" value="ofrecer" checked>
+						Quiero ofrecer mis servicios. 
+					</label>
+				</div>
+				
+				<div class="form-check form-check-inline">
+					<label class="form-check-label float-left">
+					<input class="form-check-input" type="radio" name="tipo" id="radContratar" value="contratar">
+						Quiero contratar servicios. 
+					</label>
+				</div>
+
+				<div class="form-group">
+				    <label class="float-left" for="userEmail">Correo</label>
+				    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Correo electrónico">
+				    <small id="emailHelp" class="form-text text-muted float-left">Núnca compartiremos su correo con nadie</small>
+			    </div>
+
+			    <br>
+
+			    <div class="form-group">
+			    	<label class="float-left" for="userPass">Password</label>
+			    	<input type="password" class="form-control" id="userPass" placeholder="Password">
+			    </div>
+
+			    <div class="form-group">
+			    	<label class="float-left" for="userPassCOnfirm">Confirma Password</label>
+			    	<input type="password" class="form-control" id="userPassCOnfirm" placeholder="Password">
+			    </div>
+
+			    <a href="#" class="btn btn-dark float-right"><span>Registrarme</span></a>
+			</form>
+
+		</section>
+
+
+		<section class="TopSellers">
+			
+			<h1 class="text-center display-4">Conoce algunos de los proyectos terminados</h1>
+
+			<div class="categorías">
+				
+				<div class="row">
+					<div class="col-md-2 text-center">
+						<i class="fa fa-code icono" aria-hidden="true"></i>
+						<br>
+						<span class="CategoryTitle">Desarrollo</span>
+					</div>
+					<div class="col-md-2 text-center">
+						<i class="fa fa-pencil-square-o icono" aria-hidden="true"></i>
+						<br>
+						<span class="CategoryTitle">Diseño</span>
+					</div>
+					<div class="col-md-2 text-center">
+						<i class="fa fa-camera-retro icono" aria-hidden="true"></i>
+						<br>
+						<span class="CategoryTitle">Fotografía</span>	
+					</div>
+					<div class="col-md-2 text-center">
+						<i class="fa fa-facebook icono" aria-hidden="true"></i>
+						<br>
+						<span class="CategoryTitle">Social Media</span>
+					</div>
+					<div class="col-md-2 text-center">
+						<i class="fa fa-question-circle icono" aria-hidden="true"></i>
+						<br>
+						<span class="CategoryTitle">Consultoría</span>
+					</div>
+					<div class="col-md-2 text-center">
+						<i class="fa fa-handshake-o icono" aria-hidden="true"></i>
+						<br>
+						<span class="CategoryTitle">Ventas</span>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="text-center">
+				<div class="form-group text-center">
+					<div class="form-inline">
+					<input type="search" class="form-control" name="">
+					<a href="" class="btn btn-dark"><i class="fa fa-search" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="galeria">
+				
+			</div>
+
+
+		</section>
+
+		<section class="Contact text-center">
+			
+			<h1 class="text-center display-4">Tu opinión nos interesa</h1>
+
+			<form class="px-4 py-4 d-inline-block rounded-left rounded-right rounded-top rounded-bottom MainPageForm">
+				
+				<div class="form-group">
+					<label class="float-left" class="control-label float-left" for="contactEmail">Correo</label>
+				    <input type="email" class="form-control" id="contactEmail" aria-describedby="contactEmailHelp" placeholder="Correo electrónico">
+				    <small id="contactEmailHelp" class="form-text text-muted float-left">Núnca compartiremos su correo con nadie</small>
+				</div>
+
+				<br>
+
+				<div class="form-group">
+					<label class="control-label float-left" for="contactDetail">Mensaje</label>
+					<textarea class="form-control" rows="10" cols="40"></textarea>
+				</div>
+
+				<a href="#" class="btn btn-dark float-right"><span>Enviar</span></a>
+
+			</form>
+
+		</section>
+
+		<section class="CorporateInfo">
+			
+		</section>
+
+	</div>
+
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jqfun.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

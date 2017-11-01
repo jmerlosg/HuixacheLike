@@ -1,0 +1,28 @@
+html{
+	font-size: 14px;
+}
+
+#menuprincipal{
+	clear: both;
+}
+
+.Welcome, .WhatIsThis, .Register, .TopSellers, .Contact{
+	margin-top: 8rem;
+
+}
+
+.MainPageForm{
+	background-color: #e6e6e6;
+}
+
+.icono{
+	font-size: 8rem;
+}
+
+.icono:hover{
+	cursor: pointer;
+}
+
+.CategoryTitle{
+	font-size: 2rem;
+}
